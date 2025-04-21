@@ -1,0 +1,55 @@
+.frame {
+  border: 2px solid white; /* Makes the frame */
+  padding: 20px; /* Space inside the frame */
+  width: 300px; /* Width of the frame */
+  margin: 50px auto; /* Center it horizontally */
+  border-radius: 8px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+}
+#ai-response{
+  color: rgb(96, 4, 255);
+}
+#user-message{
+  color: white;
+}
+p {
+  color: white; /* Text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+button{
+  width: 5%;
+  border: 3px solid white;
+  padding: 10px;
+  width: 300px;
+  margin: 45px auto;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #45a049; 
+}
+#message-display {
+  border: 2px solid white; /* Frame around message */
+  padding: 10px; /* Space inside */
+  margin-bottom: 10px; /* Space below */
+  min-height: 50px; /* Make it a bit taller even if no text yet */
+  text-align: right; /* Align text to right */
+  color: white; /* Text color */
+  border-radius: 8px; /* Rounded corners (optional, looks nice) */
+}
+body {
+  background-color:#211f38;
+  font-family: Arial, sans-serif; 
+}
+h2 {
+  color: white; /* Text color */
+
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="frame">
+    <h2>Hello!</h2>
+
+    <p>User:</p>
+    <div id="user-message"></div> <!-- show user's message here -->
+
+    <p>AI:</p>
+    <div id="ai-response">{{ generated_content }}</div> <!-- show AI's response here -->
+
+    <textarea id="message-input" placeholder="Type your message here..." rows="5" cols="30"></textarea><br><br>
+
+    <button type="button" onclick="submitMessage()">Submit</button>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
